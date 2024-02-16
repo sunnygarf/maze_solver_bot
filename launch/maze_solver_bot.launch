@@ -1,0 +1,6 @@
+<launch>
+  <rosparam file="$(find maze_solver_bot)/config/param.yml"/>
+  <arg name="cmd_vel" default="/cmd_vel"/>
+  <param name="pub_topic" value="$(arg cmd_vel)"/>
+  <node name="maze_solver_bot" pkg="maze_solver_bot" type="run" output="screen"/>
+</launch>

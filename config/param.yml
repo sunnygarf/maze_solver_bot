@@ -1,0 +1,25 @@
+DEFAULT_LINEAR_VELOCITY: 0.5
+DEFAULT_ANGULAR_VELOCITY: 0.5
+
+# controller parameters
+PROPORTIONAL: 1
+DERIVATIVE: -1
+
+# buffer to tune corner turning radius.
+# bot can get stuck in corner without buffer
+CORNER_BUFFER: 0.5
+
+TARGET_DISTANCE_TO_LEFT_WALL: 0.1
+
+# bot can loop around if it seeks for corner too early
+THRESHOLD_DISTANCE_TO_SEEK_CORNER: 0.2
+
+# front threshold >= sides threshold to avoid being trapped in corner
+THRESHOLD_DISTANCE_TO_CHECK_FRONT: 0.3
+THRESHOLD_DISTANCE_TO_CHECK_SIDES: 0.3
+
+# scan range to check existence of left wall
+MIN_SCAN_ANGLE: 60
+MAX_SCAN_ANGLE: 120
+
+THRESHOLD_DISTANCE_TO_LEFT_WALL: 3
