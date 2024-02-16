@@ -1,5 +1,7 @@
 # Maze Solver Bot
 
+https://github.com/sunnygarf/maze_solver_bot/assets/155351380/c641af27-9844-412e-bf82-0d61c9c80a1e
+
 This repository contains the implementation of a maze solver bot utilising the wall-following algorithm, simulation environment, and trajectory visualiser. This project is written in C++ with the ROS (Robot Operating System) framework (roscpp), and offers a solution for autonomously navigating through mazes.
 
 ## Getting Started
