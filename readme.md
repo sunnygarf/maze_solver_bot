@@ -1,8 +1,12 @@
+![maze](demo/maze.png)
+
 # Maze Solver Bot
 
-https://github.com/sunnygarf/maze_solver_bot/assets/155351380/c641af27-9844-412e-bf82-0d61c9c80a1e
+This repository contains the implementation of a maze solver bot utilising TurtleBot3 and its Simultaneous Localisation and Mapping (SLAM) modules: Laser Distance Sensor (LDS) and Inertial Measurement Unit (IMU) for odometry data. It features a wall-following algorithm, simulation environment, and trajectory visualiser. This project is written in C++ with the Robot Operating System (ROS) framework (roscpp), and offers a solution for autonomously navigating through mazes. A PD controller is utilised to smooth the movement of the bot and ensure it follows the wall without straying, especially when encountering corners or executing turns.
 
-This repository contains the implementation of a maze solver bot utilising the wall-following algorithm, simulation environment, and trajectory visualiser. This project is written in C++ with the ROS (Robot Operating System) framework (roscpp), and offers a solution for autonomously navigating through mazes.
+![bot-slam](demo/bot-slam.png)
+
+https://github.com/sunnygarf/maze_solver_bot/assets/155351380/c641af27-9844-412e-bf82-0d61c9c80a1e
 
 ## Getting Started
 
